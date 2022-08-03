@@ -1,0 +1,156 @@
+body{
+    padding: 16px, 10%; 
+    margin: 0;
+    font-family: 'Roboto', sans-serif;    
+}
+
+.hero,
+.content,
+.footer, 
+.quote {
+    padding: 24px 10%;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logotext {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.hero,
+.footer {
+    background-color: #1f2937;
+}
+
+.headerhero {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+
+ul,
+.texthero {
+    font-size: 18px;
+    color: #e5e7eb;
+    padding-bottom: 8px;
+}
+
+.signuphero {
+    color: #e5e7eb;
+    background-color: #3382f6;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px 28px;
+    border: none;
+    border-radius: 8px;
+}
+
+.contenthero {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 5px;
+    flex: auto;
+}
+
+.heroalltext{
+    max-width: 48%; 
+   /* align-items: stretch;*/
+}
+
+.contenthero > img {
+    width: original;
+    height: auto;
+}
+
+.headerinfo {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 24px;
+    padding-bottom: 42px;
+}
+
+.infoblock {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    flex-wrap: wrap;
+}
+
+.box {
+    flex-wrap: wrap;
+    width: 200px;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.box > img {
+    border-radius: 12px;
+    border: solid #3382f6 4px; 
+}
+
+.quote {
+    background-color: #e5e7eb;
+
+}
+
+.quotetext {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 100;
+    font-style: italic;
+    padding: 100px 10% 8px;
+}
+
+.quoteauthor {
+    text-align: end;
+    font-weight: bold;
+    font-size: 26px;
+    color: #1f2937;
+    padding: 12px 14% 100px 0;
+}
+
+.ad {
+    background-color: #3382f6;
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 20%;
+    margin: 50px 20%;
+    border-radius: 12px;
+}
+
+.adtext {
+    color: #e5e7eb;
+}
+
+.signupad {
+    color: #F9FAF8;
+    background-color: #3382f6;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px 28px;
+    border: solid #F9FAF8 2px;
+    border-radius: 8px;
+}
