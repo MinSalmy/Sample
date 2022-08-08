@@ -5,7 +5,6 @@ body{
 }
 
 .hero,
-.content,
 .footer, 
 .quote {
     padding: 24px 10%;
@@ -86,7 +85,7 @@ ul,
     color: #1f2937;
     font-weight: bolder;
     text-align: center;
-    padding-top: 24px;
+    padding-top: 42px;
     padding-bottom: 42px;
 }
 
@@ -113,7 +112,6 @@ ul,
 
 .quote {
     background-color: #e5e7eb;
-
 }
 
 .quotetext {
@@ -136,13 +134,26 @@ ul,
     background-color: #3382f6;
     display: flex;
     justify-content: space-between;
-    padding: 24px 20%;
-    margin: 50px 20%;
+    padding: 50px 8%;
+    margin: 100px 10%;
     border-radius: 12px;
 }
 
-.adtext {
-    color: #e5e7eb;
+.headerad {
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.ha{
+    font-weight: bold;
+    color: #F9FAF8;  
+    font-size: 24px; 
+    padding: 0;
+}
+
+.tad {
+    color:#e5e7eb;
+    padding: 0;
 }
 
 .signupad {
@@ -153,4 +164,11 @@ ul,
     padding: 8px 28px;
     border: solid #F9FAF8 2px;
     border-radius: 8px;
+}
+
+.footer {
+    text-align: center;
+    color: #F9FAF8;
+    font-size: 18px;
+    padding: 40px;
 }
